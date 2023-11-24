@@ -1,9 +1,9 @@
 const FigSection = () => {
   return (
-    <section className="fig-section">
-      <h2>The highest level of security</h2>
-      <div className="figures">
-        <div>
+    <section className="p-5">
+      <h2 className="text-center text-3xl text-indigo-900 font-bold">The highest level of security</h2>
+      <div className="flex justify-center items-start mt-12 gap-20 flex-wrap">
+        <div className="gap-2 flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-24 pl-8">
           <figure>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -21,10 +21,10 @@ const FigSection = () => {
               <path d="m13 13 6 6" />
             </svg>
           </figure>
-          <h3>4 230 000</h3>
+          <h3 className="text-indigo-900 text-3xl font-bold">4 230 000</h3>
           <p>known viruses</p>
         </div>
-        <div>
+        <div className="gap-2 flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-28 pl-8">
           <figure>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,48 +42,10 @@ const FigSection = () => {
               <path d="m9 12 2 2 4-4" />
             </svg>
           </figure>
-          <h3>99.8%</h3>
+          <h3 className="text-indigo-900 text-3xl font-bold">99.8%</h3>
           <p>viruses blocked</p>
         </div>
       </div>
-      {/* 
-      .fig-section {
-  height: 30vh;
-  padding: 1rem;
-  background: #f2f3f7;
-}
-
-.fig-section > h2 {
-  text-align: center;
-  font-size: 2rem;
-  color: #492e89;
-}
-
-.figures {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 5rem;
-  margin-top: 3rem;
-}
-
-.figures > div {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 25vw;
-  height: 25vh;
-  border-radius: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  padding: 2rem;
-}
-
-.figures > div > h3 {
-  font-size: 1.8rem;
-  color: #492e89;
-}
- */}
     </section> 
   );
 };
