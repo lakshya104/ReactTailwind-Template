@@ -1,11 +1,11 @@
 const Navbar = () => {
   return (
-    <nav className="flex justify-around items-center bg-sky-0 p-6" id="navbar">
+    <nav className="flex justify-around flex-col items-center bg-sky-0 p-6 flex-wrap sm:flex-row " id="navbar">
       <div className="brand-name">
         <h1 className="text-cyan-600 text-3xl font-black">SecureM4</h1>
       </div>
       <div>
-        <ul className="flex justify-around items-center gap-6 text-sm">
+        <ul className="flex flex-col justify-around items-center gap-6 text-sm flex-wrap sm:flex-row">
           <li>
             <a href="">Home</a>
           </li>
