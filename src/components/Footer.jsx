@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center flex-col gap-8 py-4 p-20 md:px-64">
+    <footer className="flex justify-center items-center flex-col gap-8 py-4 p-20    ">
       <ul className="flex-col md:flex-row list-none flex items-center justify-end gap-4">
         <a className=" text-[#492e89]" href="#navbar" target="_parent" rel="noopener noreferrer">
           <li>Home</li>

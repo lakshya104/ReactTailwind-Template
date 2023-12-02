@@ -25,7 +25,7 @@ const Testimonials = () => {
     <section className="flex justify-center items-center flex-col gap-4 py-4">
 
     <h2 className='font-bold text-3xl text-indigo-900'>What Our Users Say</h2>
-    <div className="swiper h-[500px] w-[300px] md:h-[400px] md:w-[700px]">
+    <div className="swiper h-[500px] w-[90%]">
       <div className="swiper-wrapper">
         <div className="swiper-slide flex justify-center items-center flex-col text-center p-8">
           <figure className='h-[100px] w-[100px]' ><img className='rounded-full h-full w-full' src={sergio} alt=""/></figure>

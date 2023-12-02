@@ -1,8 +1,8 @@
 
 const Address = () => {
   return (
-    <section className="flex items-center justify-center gap-12 flex-col md:flex-row py-8" id="contact">
-      <div className="flex items-center justify-center shadow-2xl p-4 w-[50%] md:w-[30%] rounded-3xl flex-col md:flex-row">
+    <section className="flex items-center justify-center gap-16 flex-col md:flex-row py-4" id="contact">
+      <div className="flex items-center justify-center shadow-2xl p-4 w-[90%] md:w-[40%] rounded-3xl flex-col md:flex-row">
         <div className="flex items-start justify-center flex-col gap-2 flex-wrap">
           <h3 className=" font-black text-indigo-900">Company Office</h3>
           <p className=" text-sm">
@@ -63,7 +63,7 @@ const Address = () => {
         </div>
       </div>
 
-      <div className="flex items-start justify-center flex-col gap-4 shadow-2xl p-4 w-[50%] md:w-[30%] rounded-3xl">
+      <div className="flex items-start justify-center flex-col gap-4 shadow-2xl p-4 w-[90%] md:w-[40%] rounded-3xl">
       <h3 className=" font-black text-indigo-900">Customer Service</h3>
         <p className=" text-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa

@@ -4,10 +4,10 @@ import jannis from "../assets/jannis-lucas-ouX2AlJFRUY-unsplash.jpg";
 
 const Awards = () => {
   return (
-    <section className="flex items-start justify-center flex-col gap-12 p-12 md:py-32 md:px-64">
+    <section className="flex items-center justify-center flex-col gap-12 p-12">
       <h2 className=" text-3xl font-black text-indigo-900">Our Awards</h2>
-      <div className="flex items-start justify-center flex-col gap-10">
-        <div className="flex items-center justify-center flex-wrap text-center shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
+      <div className="flex items-center w-[100%] justify-center flex-col gap-10">
+        <div className="flex items-center w-[90%] md:w-[70%] justify-center flex-wrap text-center shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
           <figure className=" h-28 w-28">
             <img className=" h-full w-full rounded-full" src={claudio} alt="" />
           </figure>
@@ -31,7 +31,7 @@ const Awards = () => {
             <path d="M2 12H22" />
           </svg>
         </div>
-        <div className="flex items-center justify-center text-center flex-wrap shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
+        <div className="flex items-center justify-center w-[90%] md:w-[70%] text-center flex-wrap shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
           <figure className=" h-28 w-28">
             <img className=" h-full w-full rounded-full" src={anton} alt="" />
           </figure>
@@ -55,7 +55,7 @@ const Awards = () => {
             <path d="M2 12H22" />
           </svg>
         </div>
-        <div className="flex items-center justify-center text-center flex-wrap shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
+        <div className="flex items-center justify-center w-[90%] md:w-[70%] text-center flex-wrap shadow-2xl rounded-3xl gap-8 p-2 md:gap-14 md:p-8">
           <figure className=" h-28 w-28">
             <img className=" h-full w-full rounded-full" src={jannis} alt="" />
           </figure>
