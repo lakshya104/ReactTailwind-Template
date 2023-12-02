@@ -20,7 +20,7 @@ const OurTeam = () => {
           <figure className=" w-36 h-36">
             <img className="w-full h-full rounded-full"
               src={sergio}
-              alt=""
+              alt="Sergio"
             />
           </figure >
           <h4 className=" text-indigo-900 font-bold text-xl">Ben Jason</h4>

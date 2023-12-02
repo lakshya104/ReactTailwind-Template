@@ -3,7 +3,7 @@ const FigSection = () => {
     <section className="p-5">
       <h2 className="text-center text-3xl text-indigo-900 font-bold">The highest level of security</h2>
       <div className="flex justify-center items-start mt-12 gap-20 flex-wrap">
-        <div className="gap-2 flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-24 pl-8">
+        <div className="gap-2 w-[90%] md:w-[35%] flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-24 pl-8">
           <figure>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +23,9 @@ const FigSection = () => {
           </figure>
           <h3 className="text-indigo-900 text-3xl font-bold">4 230 000</h3>
           <p>known viruses</p>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi rerum perferendis delectus sapiente similique doloribus harum labore laboriosam, maiores, amet ullam eos veritatis. </p>
         </div>
-        <div className="gap-2 flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-28 pl-8">
+        <div className="gap-2 w-[90%] md:w-[35%] flex justify-around items-start flex-col rounded-3xl shadow-xl py-10 pr-28 pl-8">
           <figure>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,6 +45,7 @@ const FigSection = () => {
           </figure>
           <h3 className="text-indigo-900 text-3xl font-bold">99.8%</h3>
           <p>viruses blocked</p>
+          <p> Officiis illum temporibus quod facilis, eveniet hic quae quibusdam dignissimos delectus accusamus eaque iusto quisquam quos amet ullam eos veritatis ccusamus iusto quisquam.</p>
         </div>
       </div>
     </section> 
